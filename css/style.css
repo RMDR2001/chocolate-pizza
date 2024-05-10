@@ -136,3 +136,19 @@ button {
     color: #fff;
     border: none;
 }
+
+footer {
+    position: relative; /* Asegura que el posicionamiento del logo sea relativo a este contenedor */
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+.hr-with-logo {
+    border: 1px solid black; /* Define un borde para el hr */
+    margin: 10px 0; /* Ajusta este valor según sea necesario */
+    position: relative; /* Establece un contexto de posicionamiento para el logo */
+}
+
+.small-logo {
+    position: relative; /* Para que el margen negativo funcione */
+    margin-top: -10px; /* Ajusta este valor según sea necesario para centrar el logo */
+}
