@@ -48,5 +48,36 @@ nav #section2 {
     height: 15px;
     background-image: url(/img/hr-img.png);
     background-position: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    font-size: 35px;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+
+main h3 {
+    font-size: 12px;
+    font-family: "Oswald";
+}
+
+#note {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+#print {
+    display: flex;
+}
+
+main #portada {
+    margin-top: 20px;
+    align-items: center;
 }
