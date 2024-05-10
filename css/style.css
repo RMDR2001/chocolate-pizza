@@ -1,0 +1,154 @@
+body {
+    margin: 50px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav .logo {
+    display: flex;
+}
+
+nav img {
+    margin-right: 5px;
+}
+
+nav h1 {
+    font-family: "Yellowtail";
+    font-size: 35px;
+}
+
+nav p {
+    font-family: "Oswald";
+}
+
+nav .redes-sociales {
+    display: flex;
+}
+
+nav .redes-sociales img {
+    margin: 0 0;
+}
+
+nav #section2 {
+    margin-left: 10px;
+}
+
+#separator {
+    height: 15px;
+    background-image: url(/img/hr-img.png);
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    font-size: 35px;
+    font-family: "Oswald";
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+main h3 {
+    font-size: 12px;
+    font-family: "Oswald";
+    color:rgb(130, 130, 131);
+}
+
+#note {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+#print {
+    display: flex;
+}
+
+main #portada {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+main p {
+    text-indent: 20px;
+    margin-bottom: 20px;
+    color: rgb(54, 54, 54);
+}
+
+#ingredients {
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/img/list-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+main #separator {
+    margin-top: 30px;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#author img {
+    margin-right: 30px;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+}
+
+#description h2 {
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+#description p {
+    text-indent: 0px;
+}
+
+button {
+    height: 50px;
+    background-color: #bc7058;
+    color: #fff;
+    border: none;
+}
+
+footer {
+    position: relative; /* Asegura que el posicionamiento del logo sea relativo a este contenedor */
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+.hr-with-logo {
+    border: 1px solid black; /* Define un borde para el hr */
+    margin: 10px 0; /* Ajusta este valor según sea necesario */
+    position: relative; /* Establece un contexto de posicionamiento para el logo */
+}
+
+.small-logo {
+    position: relative; /* Para que el margen negativo funcione */
+    margin-top: -10px; /* Ajusta este valor según sea necesario para centrar el logo */
+}
