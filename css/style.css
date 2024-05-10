@@ -1,0 +1,45 @@
+* {
+    background-color: #fefbea;
+}
+
+body {
+    margin: 50px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav .logo {
+    display: flex;
+}
+
+nav img {
+    margin-right: 5px;
+}
+
+nav h1 {
+    font-family: "Yellowtail";
+    font-size: 35px;
+}
+
+nav p {
+    font-family: "Oswald";
+}
+
+nav .redes-sociales {
+    display: flex;
+}
+
+nav .redes-sociales img {
+    margin: 0 0;
+}
+
+nav #section2 {
+    margin-left: 10px;
+}
