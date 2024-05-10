@@ -1,5 +1,5 @@
 * {
-    background-color: #fefbea;
+    background-color: #fff;
 }
 
 body {
@@ -42,4 +42,11 @@ nav .redes-sociales img {
 
 nav #section2 {
     margin-left: 10px;
+}
+
+#separator {
+    height: 15px;
+    background-image: url(/img/hr-img.png);
+    background-position: center;
+    margin-bottom: 50px;
 }
